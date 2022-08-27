@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-27T13:09:38.521Z",
+        "line": 11,
+        "name": "Login functionality with valid ceredentails",
+        "description": "",
+        "id": "login-functionality;login-functionality-with-valid-ceredentails",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7441000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Navigates to the login page",
+            "match": {
+              "location": "Steps.LoginSteps.user_navigates_to_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5490000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Enters the valid \"Admin\" and valid \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 40
+                }
+              ],
+              "location": "Steps.LoginSteps.user_enters_the_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 272000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Clicks on the login button",
+            "match": {
+              "location": "Steps.LoginSteps.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Successfully login into the application",
+            "match": {
+              "location": "Steps.LoginSteps.user_successfully_login_into_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]
