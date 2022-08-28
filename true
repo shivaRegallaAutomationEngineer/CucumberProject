@@ -1,0 +1,177 @@
+[1661690491.845][INFO]: Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 1267
+[1661690491.845][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1661690492.674][INFO]: [64ec67b93d7c213b270c23891a1bc6c6] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1661690492.681][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1661690492.682][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1661690492.686][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\SHIVAR~1\AppData\Local\Temp\scoped_dir24412_1554415376" data:,
+[1661690495.087][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1661690495.704][INFO]: [64ec67b93d7c213b270c23891a1bc6c6] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "104.0.5112.102",
+      "chrome": {
+         "chromedriverVersion": "104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307})",
+         "userDataDir": "C:\\Users\\SHIVAR~1\\AppData\\Local\\Temp\\scoped_dir24412_1554415376"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:61102"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "64ec67b93d7c213b270c23891a1bc6c6"
+}
+[1661690496.094][INFO]: [64ec67b93d7c213b270c23891a1bc6c6] COMMAND Navigate {
+   "url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+}
+[1661690496.094][INFO]: Waiting for pending navigations...
+[1661690496.207][INFO]: Done waiting for pending navigations. Status: ok
+[1661690497.326][INFO]: Waiting for pending navigations...
+[1661690499.987][INFO]: Done waiting for pending navigations. Status: ok
+[1661690499.987][INFO]: [64ec67b93d7c213b270c23891a1bc6c6] RESPONSE Navigate
+[1661690505.093][INFO]: [64ec67b93d7c213b270c23891a1bc6c6] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='username']"
+}
+[1661690505.093][INFO]: Waiting for pending navigations...
+[1661690505.094][INFO]: Done waiting for pending navigations. Status: ok
+[1661690505.118][INFO]: Waiting for pending navigations...
+[1661690505.119][INFO]: Done waiting for pending navigations. Status: ok
+[1661690505.119][INFO]: [64ec67b93d7c213b270c23891a1bc6c6] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "a70c483d-c37e-429a-b206-efc38d4d3c9e"
+}
+[1661690505.141][INFO]: [64ec67b93d7c213b270c23891a1bc6c6] COMMAND ClearElement {
+   "id": "a70c483d-c37e-429a-b206-efc38d4d3c9e"
+}
+[1661690505.141][INFO]: Waiting for pending navigations...
+[1661690505.142][INFO]: Done waiting for pending navigations. Status: ok
+[1661690505.175][INFO]: 
+	=== NOTE: ===
+	The Clear command in ChromeDriver 2.43 and above
+	has been updated to conform to the current standard,
+	including raising blur event after clearing.
+
+[1661690505.187][INFO]: Waiting for pending navigations...
+[1661690505.188][INFO]: Done waiting for pending navigations. Status: ok
+[1661690505.188][INFO]: [64ec67b93d7c213b270c23891a1bc6c6] RESPONSE ClearElement
+[1661690505.204][INFO]: [64ec67b93d7c213b270c23891a1bc6c6] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='username']"
+}
+[1661690505.204][INFO]: Waiting for pending navigations...
+[1661690505.205][INFO]: Done waiting for pending navigations. Status: ok
+[1661690505.211][INFO]: Waiting for pending navigations...
+[1661690505.212][INFO]: Done waiting for pending navigations. Status: ok
+[1661690505.212][INFO]: [64ec67b93d7c213b270c23891a1bc6c6] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "a70c483d-c37e-429a-b206-efc38d4d3c9e"
+}
+[1661690505.220][INFO]: [64ec67b93d7c213b270c23891a1bc6c6] COMMAND TypeElement {
+   "id": "a70c483d-c37e-429a-b206-efc38d4d3c9e",
+   "text": "Admin",
+   "value": [ "A", "d", "m", "i", "n" ]
+}
+[1661690505.221][INFO]: Waiting for pending navigations...
+[1661690505.221][INFO]: Done waiting for pending navigations. Status: ok
+[1661690505.243][INFO]: Waiting for pending navigations...
+[1661690505.243][INFO]: Done waiting for pending navigations. Status: disconnected: not connected to DevTools
+[1661690505.382][INFO]: [64ec67b93d7c213b270c23891a1bc6c6] RESPONSE TypeElement
+[1661690505.425][INFO]: [64ec67b93d7c213b270c23891a1bc6c6] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='password']"
+}
+[1661690505.425][INFO]: [64ec67b93d7c213b270c23891a1bc6c6] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=104.0.5112.102)
